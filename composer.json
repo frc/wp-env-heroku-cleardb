@@ -1,0 +1,19 @@
+{
+  "name": "frc/wp-env-heroku-cleardb",
+  "license": "MIT",
+  "type": "library",
+  "description": "Export Heroku cleardb addon configuration for WordPress.",
+  "keywords": ["Heroku", "WordPress", "ClearDB", "MySQL"],
+  "authors": [
+    {
+      "name": "Panu Ervamaa",
+      "email": "panu.ervamaa@frantic.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [ "src/ClearDB.php" ]
+  }
+}
